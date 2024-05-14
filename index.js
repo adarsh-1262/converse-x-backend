@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 //Allow specific origins
 const corsOptions = {
-  origin:'https://conversex.netlify.app',
+  origin:'https://converse-x.vercel.app',
   credentials: true,
 };
 
