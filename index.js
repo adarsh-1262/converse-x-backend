@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'https://main--conversex.netlify.app',
+    origin:'https://conversex.netlify.app',
     credentials:true
 };
 app.use(cors(corsOption)); 
