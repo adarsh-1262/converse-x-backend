@@ -1,0 +1,10 @@
+.env
+node_modules
+
+# echo "# converse-x-backend" >> README.md
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/adarsh-1262/converse-x-backend.git
+# git push -u origin main
