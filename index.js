@@ -12,17 +12,19 @@ dotenv.config();
 const PORT = process.env.PORT || 5000;
 
 // Allow specific origins
-const corsOptions = [
-  'https://main--conversex.netlify.app',
-  'https://conversex.netlify.app'
-];
+// const corsOptions = [
+//   'https://main--conversex.netlify.app',
+//   'https://conversex.netlify.app'
+// ];
 
-app.use(cors(corsOptions));
+
 
 // middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser());
+
+app.use(cors());
 
 // routes
 app.use("/api/v1/user", userRoute);
