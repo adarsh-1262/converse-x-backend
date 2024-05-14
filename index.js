@@ -11,7 +11,7 @@ dotenv.config();
 
 const PORT = process.env.PORT || 5000;
 
-Allow specific origins
+//Allow specific origins
 const corsOptions = {
   origin:'https://conversex.netlify.app',
   credentials: true,
